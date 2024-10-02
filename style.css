@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color:#110d26;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.808);
+}
+#hero{
+    background-image: url('assets/herobg.jpg');
+    height: 100%;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}

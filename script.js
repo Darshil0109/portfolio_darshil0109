@@ -46,3 +46,14 @@ function navMenuOpen(){
     }
 }
 navMenuOpen()
+
+console.log("Script loaded");
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("DOM fully loaded");
+
+    // Add console logs to check variables
+    console.log(document.querySelector("#professions"));
+    console.log(document.querySelector("#nav-menu"));
+
+    // Your existing code
+});

@@ -22,3 +22,18 @@ nav{
     background-position: center;
     background-repeat: no-repeat; 
 }
+#nav-menu{
+    position: absolute;
+    top: 5rem;
+    right: 1%;
+    flex-direction: column;
+    gap: 50px;
+    z-index: 20;
+    background-color: whitesmoke;
+    border: 1px solid rgb(41, 41, 41);
+}
+@media (min-width: 768px) { 
+    #nav-menu{
+        display: none !important;
+    }
+}

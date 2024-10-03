@@ -31,7 +31,7 @@
                 <li class="flex items-center hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">Skills</li>
                 <li class="flex items-center hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">Projects</li>
             </ul>
-            <ul class="flex items-center font-semibold text-2xl md:hidden">
+            <ul id="menu-icon" class="flex items-center font-semibold text-2xl md:hidden">
                 <i class="ri-more-2-fill"></i>
             </ul>
         </nav>
@@ -44,7 +44,7 @@
         <div class="z-20 mx-10 lg:mx-28  pt-36 relative flex flex-col md:flex-row items-start sm:items-center justify-center ">
             <div id="text-content" class="w-full md:w-2/5 lg:w-3/5 2xl:1/2">
                 <h1 class="flex md:flex-col font-black text-5xl md:text-7xl 2xl:text-8xl gap-4 flex-wrap">
-                    <span>Hi, I am</span><span class="text-[#2548E3]">Darshil.</span>
+                    <span class="md:max-h-[72px]">Hi, I am</span><span class="text-[#2548E3]">Darshil.</span>
                 </h1>
                 <div id="buttons" class="mt-8 flex flex-col-reverse sm:flex-row md:flex-col-reverse lg:flex-row gap-5 items-start lg:items-center">
                     <div class="flex items-start lg:items-center hover:scale-105">
@@ -57,7 +57,7 @@
                         <a href="https://www.linkedin.com/in/darshil-patel-133156217/" target="_blank" class="w-12 h-12 text-[45px] 2xl:text-[55px] flex items-center hover:scale-110">
                             <i class="ri-linkedin-box-fill text-[#1083BE]"></i>
                         </a>
-                        <a href="https://www.hackerrank.com/profile/darshil01092004" target="_blank" class="w-9 h-9 2xl:w-11 2xl:h-11 hover:scale-110">
+                        <a href="https://www.hackerrank.com/profile/darshil01092004" target="_blank" class="w-12 h-12 p-1.5 2xl:w-11 2xl:h-11 hover:scale-110 flex items-center">
                             <img src="assets/Hackerrank.webp" alt="Hackerrank" class="rounded-full cover">
                         </a>
                         <a href="mailto:darshil01092004@gmail.com" target="_blank" class="w-16 h-12 2xl:w-20 2xl:h-16  hover:scale-110">
@@ -67,17 +67,26 @@
                 </div>
                 
                 <div class="mt-8 text-3xl font-medium text-black">
-                    I am Intereseted <br>in <span id="professions" class="text-[#1083BE]">Full Stack Development._</span>
+                    I am Intereseted <br>in <span id="professions" class="text-[#1083BE]"></span><span>_</span>
                 </div>
             </div>
             <div id="image-content" class="w-full mt-5 md:mt-0 md:w-4/5 lg:w-2/5 flex md:justify-end 2xl:1/2">
-                <img src="assets/introimage.png" alt="intro" class="h-full w-full sm:h-2/3 sm:w-2/3 sm:mx-auto md:mx-0 md:h-full md:w-full cover">
+                <img src="assets/introimage.png" alt="intro" class="h-full w-full sm:h-2/3 sm:w-2/3 sm:mx-auto md:mx-0 md:h-full md:w-full cover md:max-w-[500px] lg:min-w-[400px]">
             </div>
         </div>
     </main>
 
+    <div id="nav-menu" class="w-40 h-40 px-3 font-medium rounded hidden">
+        <ul class="flex flex-col justify-evenly w-full h-full">
+            <li class="hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">About</li>
+            <li class="hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">Skills</li>
+            <li class="hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">Projects</li>
+        </ul>
+    </div>
+
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js" integrity="sha512-xAxjKW1J/R4TFytv43xvQ7jFTrJlBzsDOH/Aw0fFc2nvarQkE3d08lTicjzUsZJYDoHYDCpwsUUqOJXh34A1sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 </html>

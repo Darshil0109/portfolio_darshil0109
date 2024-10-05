@@ -35,9 +35,9 @@ function typeWriter(){
 typeWriter()
 
 
+var isOpen = false
+var menu = document.querySelector("#nav-menu")
 function navMenuOpen(){
-    var isOpen = false
-    var menu = document.querySelector("#nav-menu")
     var icon = document.querySelector("#menu-icon")
     icon.addEventListener("click" , changeStatus)
     function changeStatus(){
@@ -46,4 +46,24 @@ function navMenuOpen(){
     }
 }
 navMenuOpen()
+
+
+document.getElementById("about-link").addEventListener("click", function () {
+    gsap.to(window, { scrollTo: {y: "#about-content", offsetY: 100, autoKill: true}})
+});
+document.getElementById("skills-link").addEventListener("click", function () {
+    gsap.to(window, { scrollTo: {y: "#skills-content", offsetY: 100, autoKill: true}})
+});
+document.getElementById("mobile-about-link").addEventListener("click", function () {
+    isOpen = !{isOpen}
+    menu.style.display = isOpen ? "flex" : "none";
+    gsap.to(window, { scrollTo: {y: "#about-content", offsetY: 100, autoKill: true}})
+});
+document.getElementById("mobile-skills-link").addEventListener("click", function () {
+    isOpen = !{isOpen}
+    menu.style.display = isOpen ? "flex" : "none";
+    console.log(isOpen);
+    
+    gsap.to(window, { scrollTo: {y: "#skills-content", offsetY: 100, autoKill: true}})
+});
 

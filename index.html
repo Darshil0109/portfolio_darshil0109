@@ -76,28 +76,109 @@
         </div>
     </main>
 
-    <div id="nav-menu" class="w-40 h-40 px-3 font-medium rounded hidden">
+
+    <div id="nav-menu" class="w-40 h-40 px-3 font-medium rounded hidden fixed top-[60px] right-0 ">
         <ul class="flex flex-col justify-evenly w-full h-full">
-            <li class="hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">About</li>
-            <li class="hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">Skills</li>
-            <li class="hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">Projects</li>
+            <li id="mobile-about-link" class="flex items-center hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">About</li>
+            <li id="mobile-skills-link" class="flex items-center hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">Skills</li>
+            <li id="mobile-projects-link" class="flex items-center hover:cursor-pointer hover:text-blue-500 text-[18px] 2xl:text-[23px]">Projects</li>
         </ul>
     </div>
 
+    
+
 
     <div id="about-content" class="z-20 mt-10 mx-10 lg:mx-28">
-        <h1 id="about-title" class="font-bold text-xl">ABOUT ME</h1>
-        <h1 id="about-intro" class="font-black text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl">Introduction.</h1>
+        <h1 id="about-title" class="font-semibold text-lg uppercase">About me</h1>
+        <h1 id="about-intro" class="font-black my-3 text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl">Introduction.</h1>
         <p class="mt-5">Hello, I'm Darshil, a Dedicated Student at Lok Jagruti Institute of Engineering and Technology, Seeking a challenging position in computer engineering to enhance my expertise in software development and data analysis.With a solid foundation in areas like web development, Full stack development,I Aim to contribute to innovative projects at the industries and improve in fields such as machine learning, data science, and software engineering .
         </p>
-        <p class="mt-2">Some of My best abilities are Quick Learning, Better Understanding, Good Logic Implementation , Better WorkFlow , More Passion while working , Curious about new Technologies which has led me to various Good Projects. </p>
+        <p class="mt-2">Some of My best abilities are Quick Learning, Better Understanding, Good Logic Implementation , Better WorkFlow , More Passion while working , Curious about new Technologies which could lead me to various Good Projects. </p>
         <p class="mt-2">My Thinking is to always Deliever something Unique related to the Projects. Each of them are Valuable opportunities for Me.I'm Deeply Committed to my Responsibilities related to Projects
         </p>
         <p class="mt-2">Let's Connect Together and Explore opportunities Together.
         </p>
     </div>
 
+    <div id="skills-content" class="z-20 mt-10 mx-10 lg:mx-28">
+        <h1 id="skills-title" class="font-semibold text-lg uppercase">My skills</h1>
+        <h1 id="skills-intro" class="font-black my-3 text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl">Tech Stack.</h1>
+        <h1 id="skills-title" class="font-semibold mt-6 text-lg uppercase">technical languages</h1>
+        <div class="mt-5 sm:mt-20 xl:mx-16 flex flex-wrap gap-2 sm:gap-8 lg:gap-12 xl:gap-20 justify-evenly">
+            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
+                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+                    <img src="assets/python.webp" alt="python" class="h-full w-full ">
+                </div>
+                <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
+            </div>
+            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
+                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+                    <img src="assets/html.webp" alt="html" class="h-3/4 w-3/4 ">
+                </div>
+                <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
+            </div>
+            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
+                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+                    <img src="assets/css.webp" alt="css" class="h-3/4 w-3/4 ">
+                </div>
+                <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
+            </div>
+            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
+                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+                    <img src="assets/JavaScript.webp" alt="JavaScript" class="h-3/4 w-3/4 ">
+                </div>
+                <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
+            </div>
+            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
+                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+                    <img src="assets/sql.png" alt="sql" class="h-3/4 w-3/4 ">
+                </div>
+                <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
+            </div>
+            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
+                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+                    <img src="assets/java.png" alt="java    " class="h-full w-full ">
+                </div>
+                <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
+            </div>
+        </div>
+        <h1 id="skills-title" class="font-semibold mt-6 text-lg uppercase">Technologies and Frameworks</h1>
+        <div class="mt-5 sm:mt-20 xl:mx-16 flex flex-wrap gap-2 sm:gap-8 lg:gap-12 xl:gap-20 justify-evenly">
+            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
+                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+                    <img src="assets/react.webp" alt="python" class="h-full w-full ">
+                </div>
+                <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
+            </div>
+            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
+                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+                    <img src="assets/tailwind.webp" alt="python" class="cover">
+                </div>
+                <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
+            </div>
+            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
+                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+                    <img src="assets/django.webp" alt="python" class="h-3/4 w-3/5 ">
+                </div>
+                <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
+            </div>
+            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
+                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+                    <img src="assets/Node.webp" alt="python" class="">
+                </div>
+                <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
+            </div>
+        </div>
+    </div>
 
+
+    <div class="float-right mt-16">
+        <i class="ri-copyright-line"></i> 2024 - All Rights Reserved
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js" integrity="sha512-1PKqXBz2ju2JcAerHKL0ldg0PT/1vr3LghYAtc59+9xy8e19QEtaNUyt1gprouyWnpOPqNJjL4gXMRMEpHYyLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 </html>

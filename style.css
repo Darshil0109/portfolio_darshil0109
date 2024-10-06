@@ -60,22 +60,50 @@ nav{
         display: none !important;
     }
 }
+
 @media (max-width: 512px) { 
     #main-content{
         padding-top: 100px;
     }
 }
 @media (max-width: 350px) { 
+    #skill-sphere{
+        margin-top: 15px !important;
+    }
     #main-content{
         margin: 0px 15px;
     }
-    #about-content{
+    #about-content,#skills-content,#projects-content{
         margin: 0px 15px;
     }
-    #about-title{
+    #about-title,#skills-title,#projects-title{
         font-size: 15px !important;
     }
-    #about-intro{
+    #about-intro,#skills-intro,#projects-intro{
         font-size: 25px !important;
+    }
+}
+@media (min-width: 300px) { 
+    #profession-content{
+        height: 108px;
+    }
+}
+@media (min-width: 500px) and (max-width:628px) { 
+    #image-content {
+        justify-content: center;
+    }
+    #image-content img{
+        height: 70% !important;
+        width: 70% !important;
+    }
+}
+@media (max-width: 225px){
+    #project-info{
+        font-size: 11px;
+    }
+}
+@media (max-width: 200px){
+    #tech-logo{
+        height: 10%;
     }
 }

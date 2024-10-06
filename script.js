@@ -47,12 +47,18 @@ function navMenuOpen(){
 }
 navMenuOpen()
 
+function openResumePage() {
+    window.location.href = 'resume.html';
+}
 
 document.getElementById("about-link").addEventListener("click", function () {
     gsap.to(window, { scrollTo: {y: "#about-content", offsetY: 100, autoKill: true}})
 });
 document.getElementById("skills-link").addEventListener("click", function () {
     gsap.to(window, { scrollTo: {y: "#skills-content", offsetY: 100, autoKill: true}})
+});
+document.getElementById("projects-link").addEventListener("click", function () {
+    gsap.to(window, { scrollTo: {y: "#projects-content", offsetY: 100, autoKill: true}})
 });
 document.getElementById("mobile-about-link").addEventListener("click", function () {
     isOpen = !{isOpen}
@@ -65,5 +71,12 @@ document.getElementById("mobile-skills-link").addEventListener("click", function
     console.log(isOpen);
     
     gsap.to(window, { scrollTo: {y: "#skills-content", offsetY: 100, autoKill: true}})
+});
+document.getElementById("mobile-projects-link").addEventListener("click", function () {
+    isOpen = !{isOpen}
+    menu.style.display = isOpen ? "flex" : "none";
+    console.log(isOpen);
+    
+    gsap.to(window, { scrollTo: {y: "#projects-content", offsetY: 100, autoKill: true}})
 });
 

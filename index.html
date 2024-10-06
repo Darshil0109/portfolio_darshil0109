@@ -48,25 +48,25 @@
                 </h1>
                 <div id="buttons" class="mt-8 flex flex-col-reverse sm:flex-row md:flex-col-reverse lg:flex-row gap-5 items-start lg:items-center">
                     <div class="flex items-start lg:items-center hover:scale-105">
-                        <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm 2xl:text-xl px-5 py-2.5 ">My Resume</button>
+                        <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm 2xl:text-xl px-5 py-2.5 " onclick="openResumePage()">My Resume</button>
                     </div>
                     <div class="flex flex-wrap md:flex-nowrap gap-5 items-center sm:items-start md:items-center">
-                        <a href="https://github.com/Darshil0109" target="_blank" class="w-11 h-11 2xl:w-14 2xl:h-14 hover:scale-110">
+                        <a href="https://github.com/Darshil0109" title="Github" target="_blank" class="w-11 h-11 2xl:w-14 2xl:h-14 hover:scale-110">
                             <img src="assets/Github.webp" alt="Github">
                         </a>
-                        <a href="https://www.linkedin.com/in/darshil-patel-133156217/" target="_blank" class="w-12 h-12 text-[45px] 2xl:text-[55px] flex items-center hover:scale-110">
+                        <a href="https://www.linkedin.com/in/darshil-patel-133156217/" title="LinkedIn" target="_blank" class="w-12 h-12 text-[45px] 2xl:text-[55px] flex items-center hover:scale-110">
                             <i class="ri-linkedin-box-fill text-[#1083BE]"></i>
                         </a>
-                        <a href="https://www.hackerrank.com/profile/darshil01092004" target="_blank" class="w-12 h-12 p-1.5 2xl:w-11 2xl:h-11 hover:scale-110 flex items-center">
+                        <a href="https://www.hackerrank.com/profile/darshil01092004" title="Hackerrank" target="_blank" class="w-12 h-12 p-1.5 2xl:w-11 2xl:h-11 hover:scale-110 flex items-center">
                             <img src="assets/Hackerrank.webp" alt="Hackerrank" class="rounded-full cover">
                         </a>
-                        <a href="mailto:darshil01092004@gmail.com" target="_blank" class="w-16 h-12 2xl:w-20 2xl:h-16  hover:scale-110">
+                        <a href="mailto:darshil01092004@gmail.com" title="Gmail" target="_blank" class="w-16 h-12 2xl:w-20 2xl:h-16  hover:scale-110">
                             <img src="assets/gmail.webp" alt="Gmail" class="rounded-full cover">
                         </a>
                     </div>
                 </div>
                 
-                <div id="profession-content" class="mt-8 text-3xl font-medium text-black min-h-[108px] max-h-[144px]">
+                <div id="profession-content" class="mt-8 text-3xl font-medium text-black min-h-[108px] h-[144px]">
                     I am Intereseted <br>in <span id="professions" class="text-[#1083BE]"></span><span>_</span>
                 </div>
             </div>
@@ -104,39 +104,39 @@
         <h1 id="skills-title" class="font-semibold text-lg uppercase">My skills</h1>
         <h1 id="skills-intro" class="font-black my-3 text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl">Tech Stack.</h1>
         <h1 id="skills-title" class="font-semibold mt-6 text-lg uppercase">technical languages</h1>
-        <div class="mt-5 sm:mt-20 xl:mx-16 flex flex-wrap gap-2 sm:gap-8 lg:gap-12 xl:gap-20 justify-evenly">
-            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
-                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+        <div class="mt-5 sm:mt-20 xl:mx-16 flex flex-wrap sm:gap-8 lg:gap-12 xl:gap-20 justify-evenly">
+            <div id="skill-sphere" class="mt-10 sm:mt-0 h-26 w-24 sm:h-36 sm:w-36 flex flex-col justify-center">
+                <div id="skill-round" title="Python" class="h-20 w-20 sm:h-28 sm:w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
                     <img src="assets/python.webp" alt="python" class="h-full w-full ">
                 </div>
                 <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
             </div>
-            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
-                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+            <div id="skill-sphere" class="mt-10 sm:mt-0 h-26 w-24 sm:h-36 sm:w-36 flex flex-col justify-center">
+                <div id="skill-round" title="HTML" class="h-20 w-20 sm:h-28 sm:w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
                     <img src="assets/html.webp" alt="html" class="h-3/4 w-3/4 ">
                 </div>
                 <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
             </div>
-            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
-                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+            <div id="skill-sphere" class="mt-10 sm:mt-0 h-26 w-24 sm:h-36 sm:w-36 flex flex-col justify-center">
+                <div id="skill-round" title="CSS" class="h-20 w-20 sm:h-28 sm:w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
                     <img src="assets/css.webp" alt="css" class="h-3/4 w-3/4 ">
                 </div>
                 <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
             </div>
-            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
-                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+            <div id="skill-sphere" class="mt-10 sm:mt-0 h-26 w-24 sm:h-36 sm:w-36 flex flex-col justify-center">
+                <div id="skill-round" title="JavaScript" class="h-20 w-20 sm:h-28 sm:w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
                     <img src="assets/JavaScript.webp" alt="JavaScript" class="h-3/4 w-3/4 ">
                 </div>
                 <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
             </div>
-            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
-                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+            <div id="skill-sphere" class="mt-10 sm:mt-0 h-26 w-24 sm:h-36 sm:w-36 flex flex-col justify-center">
+                <div id="skill-round" title="SQL" class="h-20 w-20 sm:h-28 sm:w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
                     <img src="assets/sql.png" alt="sql" class="h-3/4 w-3/4 ">
                 </div>
                 <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
             </div>
-            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
-                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+            <div id="skill-sphere" class="mt-10 sm:mt-0 h-26 w-24 sm:h-36 sm:w-36 flex flex-col justify-center">
+                <div id="skill-round" title="Java" class="h-20 w-20 sm:h-28 sm:w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
                     <img src="assets/java.png" alt="java    " class="h-full w-full ">
                 </div>
                 <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
@@ -144,26 +144,26 @@
         </div>
         <h1 id="skills-title" class="font-semibold mt-6 text-lg uppercase">Technologies and Frameworks</h1>
         <div class="mt-5 sm:mt-20 xl:mx-16 flex flex-wrap gap-2 sm:gap-8 lg:gap-12 xl:gap-20 justify-evenly">
-            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
-                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+            <div id="skill-sphere" class="mt-10 sm:mt-0 h-26 w-24 sm:h-36 sm:w-36 flex flex-col justify-center">
+                <div id="skill-round" title="React" class="h-20 w-20 sm:h-28 sm:w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
                     <img src="assets/react.webp" alt="python" class="h-full w-full ">
                 </div>
                 <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
             </div>
-            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
-                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+            <div id="skill-sphere"  class="mt-10 sm:mt-0 h-26 w-24 sm:h-36 sm:w-36 flex flex-col justify-center">
+                <div id="skill-round" title="Tailwind css" class="h-20 w-20 sm:h-28 sm:w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
                     <img src="assets/tailwind.webp" alt="python" class="cover">
                 </div>
                 <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
             </div>
-            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
-                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+            <div id="skill-sphere" class="mt-10 sm:mt-0 h-26 w-24 sm:h-36 sm:w-36 flex flex-col justify-center">
+                <div id="skill-round" title="Django" class="h-20 w-20 sm:h-28 sm:w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
                     <img src="assets/django.webp" alt="python" class="h-3/4 w-3/5 ">
                 </div>
                 <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
             </div>
-            <div class="mt-5 sm:mt-0 h-36 w-36 flex flex-col justify-center">
-                <div id="skill-round" class="h-28 w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
+            <div id="skill-sphere" class="mt-10 sm:mt-0 h-26 w-24 sm:h-36 sm:w-36 flex flex-col justify-center">
+                <div id="skill-round" title="Node.js" class="h-20 w-20 sm:h-28 sm:w-28 p-4 rounded-full flex items-center justify-center items-center mx-auto">
                     <img src="assets/Node.webp" alt="python" class="">
                 </div>
                 <div id="skill-shadow" class="h-5 w-3/4  mt-2 mx-auto"></div>
@@ -172,7 +172,108 @@
     </div>
 
 
-    <div class="float-right mt-16">
+    <div id="projects-content" class="z-20 mt-10 mx-10 lg:mx-28">
+        <h1 id="projects-title" class="font-semibold text-lg uppercase">What I Made</h1>
+        <h1 id="projects-intro" class="font-black my-3 text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl">Projects.</h1>
+
+        <div id="projects">
+            <div class="flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
+                <div class="mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
+                    <img src="assets/E-Auction.png" alt="E-auction Hub" class="h-full w-full">
+                </div>
+                <div class="h-[40%] w-[90%] sm:px-6 md:h-full  md:w-[55%] md:border-l border-black flex flex-col justify-evenly">
+                    <div class="flex justify-between items-center md:pt-6 md:pl-6 md:pr-16">
+                        <a href="https://github.com/Darshil0109/E-Auction-Hub" target="_blank"><i class="ri-github-fill text-3xl sm:text-4xl md:text-5xl"></i></a>
+                        <h1 class="font-semibold text-xl md:text-2xl float-right flex items-center">E-Auction Hub</h1>
+                    </div>
+                    <p id="project-info" class="md:px-6 text-sm">The Auction website enables users to participate in live auctions, place bids, and manage their auction history.</p>
+                    <div id="tech-logo" class="flex flex-wrap h-[14%] justify-center md:h-[15%] gap-3 md:justify-end md:pr-10">
+                        <img src="assets/react.webp" alt="React" class="h-full md:cover md:p-1">
+                        <img src="assets/django.webp" alt="React" class="h-full md:cover md:p-2">
+                        <img src="assets/tailwind.webp" alt="React" class="h-full md:contain p-1 md:p-3">
+                        <img src="assets/JavaScript.webp" alt="React" class="h-full md:cover md:p-2">
+                    </div>  
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
+                <div class="mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
+                    <img src="assets/nexus.png" alt="Nexus Flow" class="h-full w-full">
+                </div>
+                <div class="h-[40%] w-[90%] sm:px-6 md:h-full  md:w-[55%] md:border-l border-black flex flex-col justify-evenly">
+                    <div class="flex justify-between items-center md:pt-6 md:pl-6 md:pr-16">
+                        <a href="https://github.com/MeetkumarChavda/NexusFlow" target="_blank"><i class="ri-github-fill text-3xl sm:text-4xl md:text-5xl"></i></a>
+                        <h1 class="font-semibold text-xl md:text-2xl float-right flex items-center">Nexus Flow(as Contributor)</h1>
+                    </div>
+                    <p id="project-info" class="md:px-6 text-sm">NexusFlow is a web application designed to manage property listings, reservations, and user interactions seamlessly.</p>
+                    <div id="tech-logo" class="flex flex-wrap h-[14%] justify-center md:h-[15%] gap-3 md:justify-end md:pr-10">
+                        <img src="assets/react.webp" alt="React" class="h-full md:cover md:p-1">
+                        <img src="assets/django.webp" alt="React" class="h-full md:cover md:p-2">
+                        <img src="assets/tailwind.webp" alt="React" class="h-full md:contain p-1 md:p-3">
+                        <img src="assets/JavaScript.webp" alt="React" class="h-full md:cover md:p-2">
+                    </div>  
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
+                <div class="mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
+                    <img src="assets/pathmaster.png" alt="Path Master" class="h-full w-full">
+                </div>
+                <div class="h-[40%] w-[90%] sm:px-6 md:h-full  md:w-[55%] md:border-l border-black flex flex-col justify-evenly">
+                    <div class="flex justify-between items-center md:pt-6 md:pl-6 md:pr-16">
+                        <a href="https://github.com/Darshil0109/PathMaster_Project" target="_blank"><i class="ri-github-fill text-3xl sm:text-4xl md:text-5xl"></i></a>
+                        <h1 class="font-semibold text-xl md:text-2xl float-right flex items-center">Path Master</h1>
+                    </div>
+                    <p id="project-info" class="md:px-6 text-sm">a Python-based Project which is used to find shortest distance to any node to any other node using GUI visualization.</p>
+                    <div id="tech-logo" class="flex flex-wrap h-[14%] justify-center md:h-[15%] gap-3 md:justify-end md:pr-10">
+                        <img src="assets/react.webp" alt="React" class="h-full md:cover md:p-1">
+                        <img src="assets/django.webp" alt="React" class="h-full md:cover md:p-2">
+                        <img src="assets/tailwind.webp" alt="React" class="h-full md:contain p-1 md:p-3">
+                        <img src="assets/JavaScript.webp" alt="React" class="h-full md:cover md:p-2">
+                    </div>  
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
+                <div class="mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
+                    <img src="assets/egggame.png" alt="Gamezone" class="h-full w-full">
+                </div>
+                <div class="h-[40%] w-[90%] sm:px-6 md:h-full  md:w-[55%] md:border-l border-black flex flex-col justify-evenly">
+                    <div class="flex justify-between items-center md:pt-6 md:pl-6 md:pr-16">
+                        <a href="https://github.com/Darshil0109/GameZone_Github" target="_blank"><i class="ri-github-fill text-3xl sm:text-4xl md:text-5xl"></i></a>
+                        <h1 class="font-semibold text-xl md:text-2xl float-right flex items-center">GameZone</h1>
+                    </div>
+                    <p id="project-info" class="md:px-6 text-sm">a Python-based Game Zone featuring five classic games—Hangman, Egg Catcher, Tic Tac Toe, Cricket, and Stone Paper Scissors.</p>
+                    <div id="tech-logo" class="flex flex-wrap h-[14%] justify-center md:h-[15%] gap-3 md:justify-end md:pr-10">
+                        <img src="assets/react.webp" alt="React" class="h-full md:cover md:p-1">
+                        <img src="assets/django.webp" alt="React" class="h-full md:cover md:p-2">
+                        <img src="assets/tailwind.webp" alt="React" class="h-full md:contain p-1 md:p-3">
+                        <img src="assets/JavaScript.webp" alt="React" class="h-full md:cover md:p-2">
+                    </div>  
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
+                <div class="mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
+                    <img src="assets/gamestore.png" alt="Gamestore" class="h-full w-full">
+                </div>
+                <div class="h-[40%] w-[90%] sm:px-6 md:h-full  md:w-[55%] md:border-l border-black flex flex-col justify-evenly">
+                    <div class="flex justify-between items-center md:pt-6 md:pl-6 md:pr-16">
+                        <a href="https://darshil0109.github.io/Gamestore_Website/" target="_blank"><i class="ri-github-fill text-3xl sm:text-4xl md:text-5xl"></i></a>
+                        <h1 class="font-semibold text-xl md:text-2xl float-right flex items-center">GameStore Website</h1>
+                    </div>
+                    <p id="project-info" class="md:px-6 text-sm">Project featuring Game store for Gamers to Buy Games Online (frontend-only)</p>
+                    <div id="tech-logo" class="flex flex-wrap h-[14%] justify-center md:h-[15%] gap-3 md:justify-end md:pr-10">
+                        <img src="assets/react.webp" alt="React" class="h-full md:cover md:p-1">
+                        <img src="assets/django.webp" alt="React" class="h-full md:cover md:p-2">
+                        <img src="assets/tailwind.webp" alt="React" class="h-full md:contain p-1 md:p-3">
+                        <img src="assets/JavaScript.webp" alt="React" class="h-full md:cover md:p-2">
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="float-right mt-16 mr-10">
         <i class="ri-copyright-line"></i> 2024 - All Rights Reserved
     </div>
 

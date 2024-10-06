@@ -20,7 +20,7 @@
 </head>
 <body>
 
-    <header class="z-30 relative">
+    <header class="z-50 relative">
         <nav class="flex justify-between w-screen h-20 2xl:h-32 items-center px-8 md:px-20 fixed backdrop-blur">
             <ul class="flex h-20 w-96 items-center gap-3">
                 <img src="assets/logo.png" alt="logo" id="logo" class="h-8 w-8 2xl:h-12 2xl:w-12 contain">
@@ -177,9 +177,9 @@
         <h1 id="projects-intro" class="font-black my-3 text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl">Projects.</h1>
 
         <div id="projects">
-            <div class="flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
-                <div class="mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
-                    <img src="assets/E-Auction.png" alt="E-auction Hub" class="h-full w-full">
+            <div id="card" class="z-30 relative overflow-hidden flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
+                <div class="icon mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
+                    <img id="project-pic" src="assets/E-Auction.png" alt="E-auction Hub" class="h-full w-full">
                 </div>
                 <div class="h-[40%] w-[90%] sm:px-6 md:h-full  md:w-[55%] md:border-l border-black flex flex-col justify-evenly">
                     <div class="flex justify-between items-center md:pt-6 md:pl-6 md:pr-16">
@@ -188,33 +188,33 @@
                     </div>
                     <p id="project-info" class="md:px-6 text-sm">The Auction website enables users to participate in live auctions, place bids, and manage their auction history.</p>
                     <div id="tech-logo" class="flex flex-wrap h-[14%] justify-center md:h-[15%] gap-3 md:justify-end md:pr-10">
-                        <img src="assets/react.webp" alt="React" class="h-full md:cover md:p-1">
-                        <img src="assets/django.webp" alt="React" class="h-full md:cover md:p-2">
-                        <img src="assets/tailwind.webp" alt="React" class="h-full md:contain p-1 md:p-3">
-                        <img src="assets/JavaScript.webp" alt="React" class="h-full md:cover md:p-2">
+                        <img src="assets/react.webp" title="react" alt="React" class="h-full md:cover md:p-1">
+                        <img src="assets/django.webp"  title="django"alt="django" class="h-full md:cover md:p-1">
+                        <img src="assets/tailwind.webp" title="tailwind" alt="tailwind" class="h-full md:contain p-1 md:p-2">
+                        <img src="assets/JavaScript.webp" title="javascript" alt="JavaScript" class="h-full md:cover md:p-1">
                     </div>  
                 </div>
             </div>
-            <div class="flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
-                <div class="mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
+            <div id="card" class="z-30 relative overflow-hidden flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
+                <div class="icon mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
                     <img src="assets/nexus.png" alt="Nexus Flow" class="h-full w-full">
                 </div>
                 <div class="h-[40%] w-[90%] sm:px-6 md:h-full  md:w-[55%] md:border-l border-black flex flex-col justify-evenly">
                     <div class="flex justify-between items-center md:pt-6 md:pl-6 md:pr-16">
                         <a href="https://github.com/MeetkumarChavda/NexusFlow" target="_blank"><i class="ri-github-fill text-3xl sm:text-4xl md:text-5xl"></i></a>
-                        <h1 class="font-semibold text-xl md:text-2xl float-right flex items-center">Nexus Flow(as Contributor)</h1>
+                        <h1 class="font-semibold text-xl md:text-2xl float-right flex items-center">Nexus Flow</h1>
                     </div>
                     <p id="project-info" class="md:px-6 text-sm">NexusFlow is a web application designed to manage property listings, reservations, and user interactions seamlessly.</p>
                     <div id="tech-logo" class="flex flex-wrap h-[14%] justify-center md:h-[15%] gap-3 md:justify-end md:pr-10">
-                        <img src="assets/react.webp" alt="React" class="h-full md:cover md:p-1">
-                        <img src="assets/django.webp" alt="React" class="h-full md:cover md:p-2">
-                        <img src="assets/tailwind.webp" alt="React" class="h-full md:contain p-1 md:p-3">
-                        <img src="assets/JavaScript.webp" alt="React" class="h-full md:cover md:p-2">
+                        <img src="assets/next.webp" title="next.js" alt="nextjs" class="h-full md:cover md:p-1">
+                        <img src="assets/django.webp" title="django" alt="django" class="h-full md:cover md:p-1">
+                        <img src="assets/tailwind.webp" title="tailwind" alt="tailwind" class="h-full md:contain p-1 md:p-2">
+                        <img src="assets/JavaScript.webp" title="javascript" alt="JavaScript" class="h-full md:cover md:p-1">
                     </div>  
                 </div>
             </div>
-            <div class="flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
-                <div class="mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
+            <div id="card" class="z-30 relative overflow-hidden flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
+                <div class="icon mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
                     <img src="assets/pathmaster.png" alt="Path Master" class="h-full w-full">
                 </div>
                 <div class="h-[40%] w-[90%] sm:px-6 md:h-full  md:w-[55%] md:border-l border-black flex flex-col justify-evenly">
@@ -224,15 +224,13 @@
                     </div>
                     <p id="project-info" class="md:px-6 text-sm">a Python-based Project which is used to find shortest distance to any node to any other node using GUI visualization.</p>
                     <div id="tech-logo" class="flex flex-wrap h-[14%] justify-center md:h-[15%] gap-3 md:justify-end md:pr-10">
-                        <img src="assets/react.webp" alt="React" class="h-full md:cover md:p-1">
-                        <img src="assets/django.webp" alt="React" class="h-full md:cover md:p-2">
-                        <img src="assets/tailwind.webp" alt="React" class="h-full md:contain p-1 md:p-3">
-                        <img src="assets/JavaScript.webp" alt="React" class="h-full md:cover md:p-2">
+                        <img src="assets/python.webp" title="python" alt="Python" class="h-full md:cover md:p-1">
+                        
                     </div>  
                 </div>
             </div>
-            <div class="flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
-                <div class="mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
+            <div id="card" class="z-30 relative overflow-hidden flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
+                <div class="icon mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
                     <img src="assets/egggame.png" alt="Gamezone" class="h-full w-full">
                 </div>
                 <div class="h-[40%] w-[90%] sm:px-6 md:h-full  md:w-[55%] md:border-l border-black flex flex-col justify-evenly">
@@ -242,28 +240,26 @@
                     </div>
                     <p id="project-info" class="md:px-6 text-sm">a Python-based Game Zone featuring five classic games—Hangman, Egg Catcher, Tic Tac Toe, Cricket, and Stone Paper Scissors.</p>
                     <div id="tech-logo" class="flex flex-wrap h-[14%] justify-center md:h-[15%] gap-3 md:justify-end md:pr-10">
-                        <img src="assets/react.webp" alt="React" class="h-full md:cover md:p-1">
-                        <img src="assets/django.webp" alt="React" class="h-full md:cover md:p-2">
-                        <img src="assets/tailwind.webp" alt="React" class="h-full md:contain p-1 md:p-3">
-                        <img src="assets/JavaScript.webp" alt="React" class="h-full md:cover md:p-2">
+                        <img src="assets/python.webp" title="python" alt="Python" class="h-full md:cover md:p-1">
+                        
                     </div>  
                 </div>
             </div>
-            <div class="flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
-                <div class="mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
+            <div id="card" class="z-30 relative overflow-hidden flex flex-col md:flex-row items-center mt-12 w-full h-screen md:h-72 border-2  border-black rounded">
+                <div class="icon mx-4 mt-5 md:mt-0 h-[50%] sm:h-[60%] w-[90%] md:h-[90%] md:w-[45%] border-2 border-black rounded  overflow-hidden">
                     <img src="assets/gamestore.png" alt="Gamestore" class="h-full w-full">
                 </div>
                 <div class="h-[40%] w-[90%] sm:px-6 md:h-full  md:w-[55%] md:border-l border-black flex flex-col justify-evenly">
                     <div class="flex justify-between items-center md:pt-6 md:pl-6 md:pr-16">
                         <a href="https://darshil0109.github.io/Gamestore_Website/" target="_blank"><i class="ri-github-fill text-3xl sm:text-4xl md:text-5xl"></i></a>
-                        <h1 class="font-semibold text-xl md:text-2xl float-right flex items-center">GameStore Website</h1>
+                        <h1 class="font-semibold text-xl md:text-2xl float-right flex items-center">GameStore</h1>
                     </div>
                     <p id="project-info" class="md:px-6 text-sm">Project featuring Game store for Gamers to Buy Games Online (frontend-only)</p>
                     <div id="tech-logo" class="flex flex-wrap h-[14%] justify-center md:h-[15%] gap-3 md:justify-end md:pr-10">
-                        <img src="assets/react.webp" alt="React" class="h-full md:cover md:p-1">
-                        <img src="assets/django.webp" alt="React" class="h-full md:cover md:p-2">
-                        <img src="assets/tailwind.webp" alt="React" class="h-full md:contain p-1 md:p-3">
-                        <img src="assets/JavaScript.webp" alt="React" class="h-full md:cover md:p-2">
+                        <img src="assets/html.webp" title="html" alt="html" class="h-full md:cover md:p-1">
+                        <img src="assets/css.webp" title="css" alt="css" class="h-full md:cover md:p-1">
+                        <img src="assets/bs.webp" title="bootstrap 5" alt="React" class="h-full md:contain p-1 md:p-1">
+                        <img src="assets/JavaScript.webp" title="javascript" alt="React" class="h-full md:cover md:p-1">
                     </div>  
                 </div>
             </div>

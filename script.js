@@ -1,5 +1,5 @@
 var professionspan = document.querySelector("#professions");
-var professions = ["Full Stack Development." , "Data Analysis." ,"Android Development."]
+var professions = ["Full Stack Web Development." , "Machine Learning." ,"3D Web Development." , "Block-Chain Technology."]
 var professionIndex = 0
 var profession = professions[professionIndex];
 var index = 1
